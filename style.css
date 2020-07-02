@@ -6,13 +6,20 @@ body{
 h1{
     font-size: 50px;
 }
+ #space{
+    padding-top: 20%;
+}
 .button{
     text-decoration: none;
    background-image: linear-gradient(45deg, lightsalmon,tomato);
-    padding: 10px 20px;
+   padding: 10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+   display: block;
+   width: 30%;
+    
+   
 }
 
     .half-width{
@@ -32,4 +39,30 @@ h1{
     section{
         height: 500px;
         padding-bottom: 150px;
+    }
+    #margin{
+        margin-bottom: 10px;
+    }
+    #gap{
+        margin-bottom: 10px;
+    }
+    .gmail{
+        
+        border-radius: 10px;
+       height: 20px;
+        background-color:palevioletred;
+        color: white;
+        width: 500px;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    footer p{
+        text-align: center;
+        padding-top: 150px;
+    }
+    .contact{
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
     }
